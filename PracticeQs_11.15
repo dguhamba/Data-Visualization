@@ -1,0 +1,47 @@
+#Import all the necessary libraries
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+
+I - Virat Kohli Dataset
+
+df = pd.read_csv("virat.csv")
+
+df.head()
+Spread in Runs
+Question 1: Analyse the spread of Runs scored by Virat in all his matches and report the difference between the scores at the 50th percentile and the 25th percentile respectively.
+
+Box Plots
+Question 2: Plot a Box Plot to analyse the spread of Runs that Virat has scored. The upper fence in the box plot lies in which interval?
+
+a)100-120
+b)120-140
+c)140-160
+d)160-180
+
+Q3:Consider the following statements and choose the correct option
+
+ I - Virat has played the maximum number of matches in 2011
+ II - Virat has the highest run average in the year 2017
+ III - Virat has the maximum score in a single match and the highest run average in the year 2016.
+Which of the above statements is/are false?
+
+a)I and II
+b)I and III
+c)II
+d)III
+
+
+Maximum Frequency
+Q4:Plot a histogram for the Mins column with 15 bins. Among the three ranges mentioned below, which one has the highest frequency?
+
+A - [54.6,68)
+
+B - [68,81.4)
+
+C - [121.6,135)
+
+a)A - [54.6,68)
+b)B - [68,81.4)
+c)C - [121.6,135)
+d)All the bin ranges have the same frequency
